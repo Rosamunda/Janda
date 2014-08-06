@@ -87,7 +87,7 @@ $diasTotales = obtenerDiasTotales();
 
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
-// al hacer un submit al form, guardamos los datos en la base lamando 
+// al hacer un submit al form, guardamos los datos en la base llamando 
 // a la función guardarDatos() 
 	guardarDatos();
 	}
